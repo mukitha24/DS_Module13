@@ -1,5 +1,5 @@
 # EX.NO:1(C) Implementation of Tower of Hanoi
-## DATE:
+## DATE:24-02-25
 ## AIM:
 To write a C program to implement Tower of Hanoi
 
