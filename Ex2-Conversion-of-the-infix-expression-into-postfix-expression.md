@@ -1,5 +1,5 @@
 # EX.NO(1B) Conversion of the infix expression into postfix expression
-## DATE:
+## DATE:22-02-25
 ## AIM:
 To write a C program to convert the infix expression into postfix form using stack by following the operator precedence and associative rule.
 
