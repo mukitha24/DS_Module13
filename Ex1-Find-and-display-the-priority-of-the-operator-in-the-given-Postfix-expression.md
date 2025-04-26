@@ -4,16 +4,13 @@
 To write a C program to find and display the priority of the operator in the given Postfix expression
 
 ## Algorithm
-1.Start and declare the input expression as a string (e.g., "A*B+C"), and define a function to return the priority of each operator. 
-
-2.Loop through each character of the expression using a for loop.
-
-3.Check if the current character is an operator (+, -, *, /, %, ^, &, |). 
-
-4.Call the priority() function for that operator and get its corresponding priority level.
-
-5.Display the operator along with a message indicating its priority level.   
-
+1. Start the program.
+2. Define the priority() function to return the priority of operators.
+3. Initialize the string containing operators and operands.
+4. Loop through each character in the string.
+5. For each operator, call the priority() function to determine its priority.
+6. Print the operator and its corresponding priority level.
+7. End.
 ## Program:
 ```
 /*
