@@ -1,19 +1,17 @@
-# Ex4 Evaluation of prefix expression
-## DATE:26-04-25
+# EX.NO.1(D) Evaluation of prefix expression
+## DATE:24-02-25
 ## AIM:
 To write a C function to evaluate the given prefix expression using stack and print the output of the given prefix expression from the stack inside the function . 
 
 ## Algorithm
-1.Start with an empty stack.
-2.Read the expression from right to left.
-3.If the character is an operator (like * or -):
-    Pop two values from the stack.
-    Perform the operation (e.g., multiply or subtract).
-    Push the result back onto the stack.
-4.If the character is a number (operand):
-    Convert the character to an integer.
-    Push the number onto the stack.
-5.After processing the entire expression, the final result will be the only value left in the stack. Pop it and print it.
+1. Start the program.
+2. Initialize a stack and set the top index to -1.
+3. Define the push() and pop() functions to add and remove elements from the stack.
+4. Define the priority() function to assign priorities to operators.
+5. Traverse the expression in the IntoPost() function, handling operands, parentheses, and
+operators.
+6. After processing the expression, pop and print any remaining operators from the stack.
+7. End.
 ## Program:
 ```
 /*
